@@ -1,0 +1,90 @@
+Last login: Mon Sep 19 00:54:37 on ttys000
+masaaba@Masaabas-MacBook-Pro ~ % $ brew install git
+
+
+zsh: command not found: $
+masaaba@Masaabas-MacBook-Pro ~ % $ brew install git
+
+
+zsh: command not found: $
+masaaba@Masaabas-MacBook-Pro ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R masaaba:admin /opt/homebrew
+==> Downloading and installing Homebrew...
+HEAD is now at 65eff656a Merge pull request #13882 from Bo98/gcc-latest-linux
+Updated 1 tap (homebrew/core).
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+masaaba@Masaabas-MacBook-Pro ~ % $ brew install git
+
+
+zsh: command not found: $
+masaaba@Masaabas-MacBook-Pro ~ % brew install git
+
+
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:6e2c829031
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:18b810bc5ddb
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.37.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:a8c3e5a517b342
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext--0.21.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.21: 1,953 files, 20.6MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.40.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.40: 230 files, 6.1MB
+==> Installing git
+==> Pouring git--2.37.3.arm64_monterey.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.37.3: 1,562 files, 45MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+masaaba@Masaabas-MacBook-Pro ~ % 
