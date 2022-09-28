@@ -40,11 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 916.0, 176.0, 199.0, 87.0 ],
+					"text" : "notes:\n\nmono prioritizes lower notes when simultaneous\n\nshift + space - play selection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 916.0, 273.0, 329.0, 33.0 ],
+					"text" : "bach list structure: note <voice_number> <MIDI_channel> onset [ pitch duration velocity flag] flag"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1035.952475247524944, 732.0, 68.0, 22.0 ],
+					"patching_rect" : [ 851.952475247524944, 569.0, 68.0, 22.0 ],
 					"text" : "send~ out2"
 				}
 
@@ -55,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.0, 732.0, 68.0, 22.0 ],
+					"patching_rect" : [ 759.0, 569.0, 68.0, 22.0 ],
 					"text" : "send~ out1"
 				}
 
@@ -67,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 943.0, 692.0, 54.0, 22.0 ],
+					"patching_rect" : [ 759.0, 529.0, 54.0, 22.0 ],
 					"text" : "*~ 0.707"
 				}
 
@@ -129,7 +153,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 93.27272629737854, 208.0, 69.0 ],
+									"patching_rect" : [ 78.0, 93.27272629737854, 213.0, 69.0 ],
 									"text" : "MONOPHONIC SYNTH ENGINE"
 								}
 
@@ -276,8 +300,8 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.0, 0, 23.377024715079987, 0.402262160696683, 0, 30.049448876614704, 0.213458870172209, 0, 61.841587528633063, 0.213458870172209, 0, 89.284890141381155, 0.0, 0 ],
-									"domain" : 89.285751342773438,
+									"addpoints" : [ 0.0, 0.0, 0, 46.753997398066971, 0.402262271588904, 0, 60.09883086979417, 0.21345892901674, 0, 123.683037411553116, 0.21345892901674, 0, 178.569581554319967, 0.0, 0 ],
+									"domain" : 178.571502685546875,
 									"id" : "obj-16",
 									"maxclass" : "function",
 									"numinlets" : 1,
@@ -537,7 +561,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 943.0, 654.0, 116.0, 22.0 ],
+					"patching_rect" : [ 759.0, 491.0, 116.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -555,7 +579,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 631.0, 669.0, 61.0, 22.0 ],
+					"patching_rect" : [ 447.0, 506.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80105
 					}
@@ -572,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 194.0, 487.0, 48.0 ],
+					"patching_rect" : [ 19.0, 31.0, 487.0, 48.0 ],
 					"text" : "A Monophonic Synth"
 				}
 
@@ -586,7 +610,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 309.0, 265.0, 178.0, 22.0 ]
+					"patching_rect" : [ 125.0, 102.0, 178.0, 22.0 ]
 				}
 
 			}
@@ -599,7 +623,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 309.0, 289.0, 178.0, 22.0 ]
+					"patching_rect" : [ 125.0, 126.0, 178.0, 22.0 ]
 				}
 
 			}
@@ -613,7 +637,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 203.0, 258.0, 54.0, 216.0 ],
+					"patching_rect" : [ 19.0, 95.0, 54.0, 216.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "read", "writetxt", "dump", "play", "stop", "clear" ],
@@ -653,7 +677,7 @@
 					"numvoices" : 2,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 312.0, 332.0, 753.952475247524831, 284.666666666666686 ],
+					"patching_rect" : [ 128.0, 169.0, 753.952475247524831, 284.666666666666686 ],
 					"pitcheditrange" : [ "null" ],
 					"ruler" : 3,
 					"showplayhead" : 1,

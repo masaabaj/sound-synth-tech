@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 897.0, 127.0, 581.0, 676.0 ],
+		"rect" : [ 705.0, 123.0, 581.0, 676.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 91.0,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "/Users/masaaba/Desktop/classes/sound-synth-tech/media/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
+								"filekind" : "audiofile",
+								"id" : "u069001286",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-1",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 270.338989496231079, 378.0, 150.0, 92.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
@@ -88,6 +125,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -143,31 +181,6 @@
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 270.338989496231079, 92.372883558273315, 50.5, 22.0 ],
 					"text" : "key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 0,
-					"data" : 					{
-						"clips" : [  ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-16",
-					"maxclass" : "playlist~",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0 ],
-					"originaltempo" : 0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 253.593228340148926, 368.644076585769653, 150.0, 92.0 ],
-					"pitchcorrection" : 0,
-					"quality" : 0,
-					"timestretch" : [ 0 ]
 				}
 
 			}
@@ -298,19 +311,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 104.694916486740112, 386.983052968978882, 16.0, 140.0 ],
-					"saved_attribute_attributes" : 					{
-						"slidercolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"patching_rect" : [ 104.694916486740112, 386.983052968978882, 16.0, 140.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 2 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -354,14 +367,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 2 ],
-					"midpoints" : [ 263.093228340148926, 544.881360054016113, 91.338981151580811, 544.881360054016113, 91.338981151580811, 331.983052968978882, 90.694916486740112, 331.983052968978882, 90.694916486740112, 286.983052968978882, 233.994916486740124, 286.983052968978882 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -376,6 +381,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -384,9 +397,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
-					"source" : [ "obj-23", 0 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -451,9 +463,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
