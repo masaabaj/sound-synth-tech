@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 421.0, 181.0, 85.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "15., 16. 10000"
 				}
 
