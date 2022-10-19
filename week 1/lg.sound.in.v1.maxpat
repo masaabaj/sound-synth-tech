@@ -40,14 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 399.0, 185.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 91.0,
+					"clipheight" : 29.666666666666668,
 					"data" : 					{
 						"clips" : [ 							{
+								"absolutepath" : "/Users/masaaba/Desktop/classes/sound-synth-tech/media/RB.vox.sung.vowels.Bb3.wav",
+								"filename" : "RB.vox.sung.vowels.Bb3.wav",
+								"filekind" : "audiofile",
+								"id" : "u618002366",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
 								"absolutepath" : "/Users/masaaba/Desktop/classes/sound-synth-tech/media/648437__timouse__piano-loop-21.wav",
 								"filename" : "648437__timouse__piano-loop-21.wav",
 								"filekind" : "audiofile",
-								"id" : "u069001286",
+								"id" : "u152005739",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/masaaba/Desktop/classes/sound-synth-tech/media/RB.vox.spoken.langston.hughes.wav",
+								"filename" : "RB.vox.spoken.langston.hughes.wav",
+								"filekind" : "audiofile",
+								"id" : "u691005522",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -406,6 +440,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
