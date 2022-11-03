@@ -1084,7 +1084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 445.5, 689.0, 50.0, 35.0 ],
-					"text" : "0 0 0 0 0 0"
+					"text" : "1 1 1 1 1 1"
 				}
 
 			}
@@ -1438,7 +1438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.5, 689.0, 50.0, 35.0 ],
-					"text" : "1 1 1 1 1 1"
+					"text" : "0 0 0 0 0 0"
 				}
 
 			}
@@ -1450,8 +1450,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "", "" ],
-					"patching_rect" : [ 278.5, 625.0, 144.0, 22.0 ],
-					"text" : "poly~ additive.polyCore 6",
+					"patching_rect" : [ 278.5, 625.0, 149.0, 22.0 ],
+					"text" : "poly~ mySynth.polyCore 6",
 					"varname" : "poly~"
 				}
 
@@ -1792,13 +1792,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "additive.polyCore.maxpat",
-				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 7",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
@@ -1824,6 +1817,13 @@
 , 			{
 				"name" : "bach.roll.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mySynth.polyCore.maxpat",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 7",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
