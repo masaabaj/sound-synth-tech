@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 94.0, 640.0, 480.0 ],
+		"rect" : [ 297.0, 185.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.0, 31.0, 167.0, 22.0 ],
-					"text" : "loadmess 0.55 0.22 0.42 0.33"
+					"patching_rect" : [ 431.0, 31.0, 160.0, 22.0 ],
+					"text" : "loadmess 0.75 0.31 0.6 0.42"
 				}
 
 			}
@@ -198,7 +198,7 @@
 					"patching_rect" : [ 364.0, 427.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 50.0 ],
+							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 1000.0,
@@ -252,7 +252,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
-							"parameter_initial" : [ 0.0001 ],
+							"parameter_initial" : [ 0.01 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[16]",
 							"parameter_mmax" : 1.0,
@@ -356,7 +356,7 @@
 					"patching_rect" : [ 182.0, 431.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.99 ],
+							"parameter_initial" : [ 0.92 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[12]",
 							"parameter_mmax" : 1.0,
@@ -434,7 +434,7 @@
 					"patching_rect" : [ 53.0, 431.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 50.0 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[15]",
 							"parameter_mmax" : 1000.0,
@@ -508,7 +508,7 @@
 					"patching_rect" : [ 182.0, 312.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.5 ],
+							"parameter_initial" : [ 0.7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[8]",
 							"parameter_mmax" : 1.0,
@@ -586,7 +586,7 @@
 					"patching_rect" : [ 53.0, 312.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 148 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[11]",
 							"parameter_mmax" : 1000.0,
@@ -612,7 +612,7 @@
 					"patching_rect" : [ 182.0, 190.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.81 ],
+							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[4]",
 							"parameter_mmax" : 1.0,
@@ -690,7 +690,7 @@
 					"patching_rect" : [ 53.0, 190.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 132 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[7]",
 							"parameter_mmax" : 1000.0,
@@ -908,7 +908,7 @@
 					"patching_rect" : [ 169.0, 58.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[3]",
 							"parameter_mmax" : 0.9,
@@ -960,7 +960,7 @@
 					"patching_rect" : [ 101.0, 58.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.0 ],
+							"parameter_initial" : [ 119 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[1]",
 							"parameter_mmax" : 1000.0,
@@ -986,7 +986,7 @@
 					"patching_rect" : [ 40.0, 58.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 50.0 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial",
 							"parameter_mmax" : 1000.0,
@@ -1084,7 +1084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 445.5, 689.0, 50.0, 35.0 ],
-					"text" : "1 1 1 1 1 1"
+					"text" : "0 0 0 0 0 0"
 				}
 
 			}
@@ -1438,7 +1438,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.5, 689.0, 50.0, 35.0 ],
-					"text" : "0 0 0 0 0 0"
+					"text" : "1 1 1 1 1 1"
 				}
 
 			}
