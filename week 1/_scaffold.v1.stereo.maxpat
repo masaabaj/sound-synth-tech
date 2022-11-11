@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 3,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 34.0, 102.0, 82.0, 22.0 ],
+					"text" : "mj.midi.in.v01"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -63,15 +75,43 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "648437__timouse__piano-loop-21.wav",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.spoken.langston.hughes.wav",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "RB.vox.sung.vowels.Bb3.wav",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "lg.sound.in.v1.maxpat",
-				"bootpath" : "~/Desktop/sound synth class/week 1",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lg.sound.out.v1.maxpat",
-				"bootpath" : "~/Desktop/sound synth class/week 1",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mj.midi.in.v01.maxpat",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
