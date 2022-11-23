@@ -2392,7 +2392,7 @@
 , 			{
 				"name" : "z.ll3headsfig4.jpg",
 				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 10/spat.boiler.patches",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../week 10/spat.boiler.patches",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

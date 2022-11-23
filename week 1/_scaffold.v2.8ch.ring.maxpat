@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.0, 136.0, 83.0, 22.0 ],
+					"text" : "mlj.spat.boiler"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -74,6 +85,29 @@
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-4::obj-105::obj-11" : [ "live.toggle[23]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-12" : [ "live.toggle[22]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-33" : [ "live.menu[2]", "live.menu[2]", 0 ],
+			"obj-4::obj-105::obj-48" : [ "live.toggle[24]", "live.toggle", 0 ],
+			"obj-4::obj-105::obj-8" : [ "live.dial[3]", " ", 0 ],
+			"obj-4::obj-29" : [ "live.drop", "live.drop", 0 ],
+			"obj-4::obj-37" : [ "angular", "angular — speakers", 0 ],
+			"obj-4::obj-46" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-4::obj-5" : [ "live.text[20]", "live.text[20]", 0 ],
+			"obj-4::obj-93" : [ "live.gain~[4]", "binaural — headphones", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "648437__timouse__piano-loop-21.wav",
 				"bootpath" : "~/Desktop/classes/sound-synth-tech/media",
@@ -113,6 +147,39 @@
 				"name" : "mj.sound.out.v02.8ch.maxpat",
 				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 1",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mlj.spat.boiler.maxpat",
+				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 1",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spat5.oper.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.osc.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.sofa.loader.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.spat~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.virtualspeakers~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
