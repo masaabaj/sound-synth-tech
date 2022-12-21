@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 165.0, 1143.0, 663.0 ],
+		"rect" : [ 34.0, 165.0, 1365.0, 762.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -246,11 +246,11 @@
 				"box" : 				{
 					"fontname" : "Andale Mono",
 					"id" : "obj-114",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.333338141441345, 71.833304286003113, 126.333334684371948, 74.0 ],
+					"patching_rect" : [ 481.333338141441345, 71.833304286003113, 138.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 322.08337414264679, 118.333332896232605, 205.0, 33.0 ],
@@ -1424,18 +1424,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1852.333361864089966, 193.499982595443726, 39.0, 22.0 ],
-					"text" : "/ 127."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1655,8 +1643,7 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 179.0, 273.0, 142.0, 22.0 ],
 					"text" : "SDIF-buffer poly.sinusoid"
 				}
@@ -2210,7 +2197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1688.333361864089966, 233.833304286003113, 101.0, 22.0 ],
+					"patching_rect" : [ 1722.333361864089966, 233.833322763442993, 101.0, 22.0 ],
 					"text" : "prepend midinote"
 				}
 
@@ -2253,7 +2240,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 1104.833309292793274, 622.33337140083313, 50.0, 62.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"text" : "0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -2269,7 +2256,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 1049.999976277351379, 622.33337140083313, 49.0, 62.0 ],
-					"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+					"text" : "1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1"
 				}
 
 			}
@@ -2730,16 +2717,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
-					"source" : [ "obj-40", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
-					"order" : 1,
 					"source" : [ "obj-40", 1 ]
 				}
 
@@ -3346,14 +3324,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "SDIF-buffer.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "SDIF-tuples.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
@@ -3389,23 +3359,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "res-transform.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "sinusoid.polyCore.v04.maxpat",
 				"bootpath" : "~/Desktop/classes/sound-synth-tech/week 11",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "sinusoids~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "threefates.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

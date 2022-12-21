@@ -680,7 +680,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1115.0, 547.0, 50.0, 35.0 ],
-					"text" : "0 0 0 0 0"
+					"text" : "1 1 1 1 1"
 				}
 
 			}
